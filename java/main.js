@@ -6,7 +6,7 @@ $(document).ready(function(){
         $("#imageofdesign, #designdetails").toggle();
     })
     // toggle in the product image and on clicking image the development details appear
-    $(".dev").click(function () {
+    $(".development").click(function () {
         $("#imageofdevelopment, #developmentdetails").toggle();
     })
     // toggle in the product image and on clicking image the product details appear
@@ -16,9 +16,9 @@ $(document).ready(function(){
 
     //adding hover effect
 
-  //image work 4
+  //projectpic4
   $('.project1').hover(function () {
-    $(this).css("opacity", "0.6");
+    $(this).css("opacity", "0.5");
     $('.p1').removeClass('text');
 }, function () {
     $(this).css("opacity", "1");
@@ -27,28 +27,28 @@ $(document).ready(function(){
    
 
 
-//image work 3
+//projectpic3
 $('.project2').hover(function () {
-    $(this).css("opacity", "0.6");
+    $(this).css("opacity", "0.5");
     $('.p2').removeClass('text');
 }, function () {
     $(this).css("opacity", "1");
     $('.p2').addClass('text');
 });
  
-//image work 2
+//projectpic2
 $('.project3').hover(function () {
-    $(this).css("opacity", "0.6");
+    $(this).css("opacity", "0.5");
     $('.p3').removeClass('text');
 }, function () {
     $(this).css("opacity", "1");
     $('.p3').addClass('text');
 });
 
-//image work 1
+//projectpic1
 
 $('.project4').hover(function () {
-    $(this).css("opacity", "0.6");
+    $(this).css("opacity", "0.5");
     $('.p4').removeClass('text');
 }, function () {
     $(this).css("opacity", "1");
@@ -56,10 +56,10 @@ $('.project4').hover(function () {
 });
   /// images in the second row
 
-//image work 5
+//projectpic5
 
 $('.project5').hover(function () {
-    $(this).css("opacity", "0.6");
+    $(this).css("opacity", "0.5");
     $('.p5').removeClass('text');
 }, function () {
     $(this).css("opacity", "1");
@@ -67,29 +67,29 @@ $('.project5').hover(function () {
 });
 
 
-//image work 6
+//projectpic6
 $('.project6').hover(function () {
-    $(this).css("opacity", "0.6");
+    $(this).css("opacity", "0.5");
     $('.p6').removeClass('text');
 }, function () {
     $(this).css("opacity", "1");
     $('.p6').addClass('text');
 });
 
-//image work 7
+//projectpic7
 
 $('.project7').hover(function () {
-    $(this).css("opacity", "0.6");
+    $(this).css("opacity", "0.5");
     $('.p7').removeClass('text');
 }, function () {
     $(this).css("opacity", "1");
     $('.p7').addClass('text');
 });
 
-//image work 8
+//projectpic8
 
 $('.project8').hover(function () {
-    $(this).css("opacity", "0.6");
+    $(this).css("opacity", "0.5");
     $('.p8').removeClass('text');
 }, function () {
     $(this).css("opacity", "1");
