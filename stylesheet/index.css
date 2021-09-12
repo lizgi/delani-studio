@@ -9,6 +9,16 @@ body{
     margin: auto;
 }
 #home-section{
-    background:url(.
-    background-size: cover;
-
+        background:url(./assets/backgrounds/h_img.jpg) center center;
+        background-size: cover;
+        color: white;
+    }
+    .banner{
+        background-image:url(../assets/backgrounds/s_image.jpg);
+        background-size: cover;
+        height: 40vh;
+        background-repeat:no-repeat ;
+        background-size: cover;
+        position: relative;
+        text-align: center;
+    }
