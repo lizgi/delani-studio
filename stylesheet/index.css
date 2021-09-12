@@ -5,20 +5,39 @@ body{
     padding: 0;
     font-family: 'poppins';
     box-sizing: border-box;
-    width: 90%;
+    width:100%;
     margin: auto;
-}
-#home-section{
-        background:url(./assets/backgrounds/h_img.jpg) center center;
-        background-size: cover;
-        color: white;
     }
-    .banner{
-        background-image:url(../assets/backgrounds/s_image.jpg);
+
+    .banner1{
+        background-image:url(../assets/backgrounds/h_img.jpg);
         background-size: cover;
-        height: 40vh;
+        height: 120vh;
         background-repeat:no-repeat ;
         background-size: cover;
         position: relative;
         text-align: center;
     }
+
+    .centered {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+    .logo img{
+        padding: 20px;
+     }
+     .mouse img{
+         margin-top: 30%;
+     }
+      #designdetails {
+display: none;
+      }
+      #developmentdetails{
+display: none;
+      }
+      #productdetails{
+display: none;
+      }
