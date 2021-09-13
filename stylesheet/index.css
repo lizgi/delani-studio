@@ -40,7 +40,9 @@ body{
   font-size: 1opx;
 }
 /*sevices*/
-
+.paragraph{
+font-size: 11px;
+}
 
      .display2{
         background-image:url("../assets/assets/backgrounds/s_image.jpg");
