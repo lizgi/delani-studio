@@ -32,7 +32,16 @@ body{
      }
      .mouse img{
          margin-top: 30%;
+         transform:translateY(-10px);
      }
+
+     /*ABOUT US */
+.paragraph{
+  font-size: 1opx;
+}
+/*sevices*/
+
+
      .display2{
         background-image:url("../assets/assets/backgrounds/s_image.jpg");
         background-size: cover;
@@ -93,9 +102,8 @@ display: none;
       .inputs{
           margin-left: 20%;
       }
-      .form-control::-webkit-input-placeholder {
-        color: white;
-    }
+    
+
     /* name input box */
     #namebar{
       background: transparent;
@@ -114,9 +122,9 @@ display: none;
         width: 295px;
       }  
       #messagebar{
-background:transparent;
-
+      background:transparent;
       }  
+
       .social-icons a:hover img{
         transform: translateY(-10px);
       }
