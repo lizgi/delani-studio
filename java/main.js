@@ -1,17 +1,17 @@
 $(document).ready(function(){
  
 
-    // toggle in the product image and on clicking image the design details appear
+    // toggle images to get details
     $(".design").click(function () {
         $("#imageofdesign, #designdetails").toggle();
     })
 
-    // toggle in the product image and on clicking image the development details appear
+    //development
     $(".devolop").click(function () {
         $("#imageofdevelopment, #developmentdetails").toggle();
     })
 
-    // toggle in the product image and on clicking image the product details appear
+    //product
     $(".product").click(function () {
         $("#imageofproducts, #productdetails").toggle();
     })
@@ -97,6 +97,7 @@ $('.project8').hover(function () {
     $(this).css("opacity", "1");
     $('.p8').addClass('text');
 });
+
 // form validation
 document.getElementById('submit').addEventListener('click', function () {
     var myName = $("#namebar").val();
@@ -105,12 +106,9 @@ document.getElementById('submit').addEventListener('click', function () {
     if ($("#namebar").val() && $("#emailbar").val() && $("#messagebar").val()) {
         alert("Hi " + myName + ", Thankyou for contacting us.we will get in touch");
     } else {
-        alert("Please fill all fields!");
+        alert("Please fill all !");
     }
 })
-//year
-    let year= new Date().getFullYear()
-    
-    $("#year").text(year);
+
 
 })
