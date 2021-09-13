@@ -1,14 +1,16 @@
 $(document).ready(function(){
- //toggle between image and description
+ 
 
     // toggle in the product image and on clicking image the design details appear
     $(".design").click(function () {
         $("#imageofdesign, #designdetails").toggle();
     })
+
     // toggle in the product image and on clicking image the development details appear
-    $(".dev").click(function () {
+    $(".devolop").click(function () {
         $("#imageofdevelopment, #developmentdetails").toggle();
     })
+
     // toggle in the product image and on clicking image the product details appear
     $(".product").click(function () {
         $("#imageofproducts, #productdetails").toggle();
@@ -95,7 +97,7 @@ $('.project8').hover(function () {
     $(this).css("opacity", "1");
     $('.p8').addClass('text');
 });
-// form validation using javascript
+// form validation
 document.getElementById('submit').addEventListener('click', function () {
     var myName = $("#namebar").val();
     var myMail = $("#emailbar").val();
@@ -106,7 +108,7 @@ document.getElementById('submit').addEventListener('click', function () {
         alert("Please fill all fields!");
     }
 })
-
+//year
     let year= new Date().getFullYear()
     
     $("#year").text(year);
