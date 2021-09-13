@@ -1,10 +1,12 @@
 # delani-studio
-This is the landing page for delani studio.
+This is the landing page for delani studio.The project is on implementing a given
+
+landing page and all it's functionality.
 
 ## PROJECT SETUP INSTRUCTIONS
 Clone the repository and modify the content of index.html according to your requirement.
 
-I highly recommend to use Github Pages to deploy the website the EASIEST WAY.
+I highly recommend to use Github Pages to deploy the website this is an EASY WAY.
 
 To deploy your website, first you need to create github repository with name .github.io/
 
