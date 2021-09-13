@@ -74,6 +74,17 @@ display: none;
       #projectpic {
         position: relative;
       }
+      #designdetails >p {
+font-size: 10px;
+      }
+      #developmentdetails >p{
+        font-size: 10px;
+      }
+
+      #productdetails>p{
+        font-size: 10px;
+      }
+
       .lap {
         position: absolute;
         top: 50%;
@@ -104,8 +115,11 @@ display: none;
       .inputs{
           margin-left: 20%;
       }
-    
 
+    .form-control::-webkit-input-placeholder {
+  color: white;
+    }
+    
     /* name input box */
     #namebar{
       background: transparent;
