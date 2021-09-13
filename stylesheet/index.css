@@ -10,7 +10,7 @@ body{
     }
 
     .display1{
-        background-image:url(../assets/backgrounds/h_img.jpg);
+        background-image:url("../assets/assets/backgrounds/h_img.jpg");
         background-size: cover;
         height: 120vh;
         background-repeat:no-repeat ;
@@ -18,7 +18,7 @@ body{
         position: relative;
         text-align: center;
         color:black;
-        background-color: blue;
+      
     }
     .sandwitched{
         position: absolute;
@@ -34,7 +34,7 @@ body{
          margin-top: 30%;
      }
      .display2{
-        background-image:url(../assets/backgrounds/s_image.jpg);
+        background-image:url("../assets/assets/backgrounds/s_image.jpg");
         background-size: cover;
         height: 40vh;
         background-repeat:no-repeat ;
@@ -81,7 +81,7 @@ display: none;
           display:none;
       }
       .display3{
-        background-image:url(../assets/backgrounds/c_image.jpg);
+        background-image:url("../assets/assets/backgrounds/c_image.jpg");
         background-size: cover;
         height: 70vh;
         background-repeat:no-repeat ;
@@ -111,7 +111,11 @@ display: none;
         color: white;
         border: solid 1px #fff; 
         width: 295px;
-      }    
+      }  
+      #messagebar{
+background:transparent;
+
+      }  
       .social-icons a:hover img{
         transform: translateY(-10px);
       }
