@@ -17,6 +17,8 @@ body{
         background-size: cover;
         position: relative;
         text-align: center;
+        color:black;
+        background-color: blue;
     }
     .sandwitched{
         position: absolute;
